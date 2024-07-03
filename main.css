@@ -38,6 +38,8 @@ html {
 
 :root {
     /* Colors */
+    --clr_blue: #1a73e8;
+    --clr_light_blue: #e8f0fe;
     --clr_white: #fafafa;
     --clr_black: #202124;
     --clr_gray: #5f6368;
