@@ -42,7 +42,7 @@ html {
     --clr_light_blue: #e8f0fe;
     --clr_white: #fafafa;
     --clr_black: #202124;
-    --clr_gray: #5f6368;
+    --clr_gray: #6a6e74;
 
     /* Fonts */
     --font_gs_bold: gs_bold, arial, sans-serif, system-UI;
@@ -67,12 +67,28 @@ html {
 }
 
 .navigation,
-.nav_left,
-.nav_logo {
+.nav_left {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 2em;
+    gap: 3em;
+}
+
+.nav_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+
+    & svg {
+        height: 2.2em;
+    }
+
+    & h3 {
+        font-family: var(--font_gs_regular);
+        font-size: 1.5em;
+        color: var(--clr_gray);
+    }
 }
 
 /* Media Queries */
