@@ -55,6 +55,7 @@ html {
     --main_width: 95%;
 
     --primary_border: solid 0.15em var(--clr_blue);
+    --nav_link_padding: 0.8em;
 }
 
 .max {
@@ -110,7 +111,7 @@ nav {
         color: var(--clr_gray);
         border: var(--primary_border);
         border-radius: 0.3em;
-        padding: 0.8em 0.6em;
+        padding: var(--nav_link_padding);
     }
 }
 
