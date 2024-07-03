@@ -72,25 +72,27 @@ nav {
 }
 
 .navigation,
-.nav_left {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 3em;
-}
-
+.nav_left,
 .nav_logo {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.nav_left {
+    gap: 2em;
+}
+
+.nav_logo {
     gap: 0.5em;
+    padding: 0.2em;
 
     & svg {
         height: 2.2em;
     }
 
     & h3 {
-        font-family: var(--f5);
+        font-family: var(--google_sans_text_medium);
         font-size: 1.5em;
         font-weight: 500;
         color: var(--clr_gray);
@@ -103,7 +105,7 @@ nav {
     justify-content: space-between;
 
     & a {
-        font-family: var(--font_gs_regular);
+        font-family: var(--google_sans_text_medium);
         font-size: 1em;
         font-weight: 500;
         color: var(--clr_gray);
