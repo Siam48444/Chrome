@@ -16,3 +16,22 @@ html {
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
+@font-face {
+    font-family: gs_bold;
+    src: url(Fonts/Google_Sans_Bold.ttf);
+}
+@font-face {
+    font-family: gs_bold_italic;
+    src: url(Fonts/Google_Sans_Bold_Italic.ttf);
+}
+@font-face {
+    font-family: gs_italic;
+    src: url(Fonts/Google_Sans_Italic.ttf);
+}
+@font-face {
+    font-family: gs_regular;
+    src: url(Fonts/Google_Sans_Regular.ttf);
+}
+
+/* Media Queries */
