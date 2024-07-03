@@ -42,7 +42,7 @@ html {
     --clr_light_blue: #e8f0fe;
     --clr_white: #fafafa;
     --clr_black: #202124;
-    --clr_gray: #6a6e74;
+    --clr_gray: #5b5e63;
 
     /* Fonts */
     --font_gs_bold: gs_bold, arial, sans-serif, system-UI;
@@ -55,8 +55,10 @@ html {
     --main_width: 95%;
 
     --primary_border: solid 0.15em var(--clr_blue);
-    --nav_link_padding: 0.8em;
+    --nav_link_padding: 0.8em 0.6em;
     --nav_link_border_radius: 0.3em;
+
+    --primary_transition_time: 300ms;
 }
 
 .max {
@@ -103,7 +105,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 0.5em;
 
     & a {
         font-family: var(--font_gs_regular);
@@ -111,8 +112,21 @@ nav {
         font-weight: 500;
         color: var(--clr_gray);
         border: var(--primary_border);
+        border-color: transparent;
         border-radius: var(--nav_link_border_radius);
         padding: var(--nav_link_padding);
+
+        transition-property: color;
+        transition-duration: var(--primary_transition_time);
+
+        &:hover {
+            color: var(--clr_black);
+        }
+
+        &:is(:focus-visible, :active) {
+            outline: none;
+            border: var(--primary_border);
+        }
     }
 }
 
