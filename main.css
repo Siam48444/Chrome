@@ -87,6 +87,20 @@ html {
     & h3 {
         font-family: var(--font_gs_regular);
         font-size: 1.5em;
+        font-weight: 500;
+        color: var(--clr_gray);
+    }
+}
+
+.nav_link_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    & a {
+        font-family: var(--font_gs_regular);
+        font-size: 1em;
+        font-weight: 500;
         color: var(--clr_gray);
     }
 }
