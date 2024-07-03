@@ -41,16 +41,9 @@ html {
     --clr_gray: #5b5e63;
 
     /* Fonts */
-    --f1: f1, arial, sans-serif, system-UI;
-    --f2: f2, arial, sans-serif, system-UI;
-    --f3: f3, arial, sans-serif, system-UI;
-    --f4: f4, arial, sans-serif, system-UI;
-    --f5: f5, arial, sans-serif, system-UI;
-    --f6: f6, arial, sans-serif, system-UI;
-    --f7: f7, arial, sans-serif, system-UI;
-    --f8: f8, arial, sans-serif, system-UI;
-    --f9: f9, arial, sans-serif, system-UI;
-    --f10: f10, arial, sans-serif, system-UI;
+    --google_sans_18pt: google_sans_18pt, arial, sans-serif, system-UI;
+    --google_sans_text: google_sans_text, arial, sans-serif, system-UI;
+    --google_sans_text_medium: google_sans_text_medium, arial, sans-serif, system-UI;
 
     /* Others */
     --max_width: min(100em, 100%);
