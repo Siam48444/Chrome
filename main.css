@@ -20,44 +20,16 @@ html {
 }
 
 @font-face {
-    font-family: f1;
-    src: url(Fonts/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPiYUvaYr.ttf);
+    font-family: google_sans_18pt;
+    src: url(Fonts/Google_Sans_18pt.ttf);
 }
 @font-face {
-    font-family: f2;
-    src: url(Fonts/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPj0UvaYr.ttf);
+    font-family: google_sans_text;
+    src: url(Fonts/Google_Sans_Text.ttf);
 }
 @font-face {
-    font-family: f3;
-    src: url(Fonts/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjAUvaYr.ttf);
-}
-@font-face {
-    font-family: f4;
-    src: url(Fonts/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjEUvaYr.ttf);
-}
-@font-face {
-    font-family: f5;
-    src: url(Fonts/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjIUvQ.ttf);
-}
-@font-face {
-    font-family: f6;
-    src: url(Fonts/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjMUvaYr.ttf);
-}
-@font-face {
-    font-family: f7;
-    src: url(Fonts/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjwUvaYr.ttf);
-}
-@font-face {
-    font-family: f8;
-    src: url(Fonts/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjYUvaYr.ttf);
-}
-@font-face {
-    font-family: f9;
-    src: url(Fonts/5aUp9-KzpRiLCAt4Unrc-xIKmCU5oLlVnmhjtg.ttf);
-}
-@font-face {
-    font-family: f10;
-    src: url(Fonts/5aUu9-KzpRiLCAt4Unrc-xIKmCU5qEp2iw.ttf);
+    font-family: google_sans_text_medium;
+    src: url(Fonts/Google_Sans_Text_Medium.ttf);
 }
 
 :root {
