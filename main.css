@@ -53,6 +53,8 @@ html {
     /* Others */
     --max_width: min(100em, 100%);
     --main_width: 95%;
+
+    --primary_border: solid 0.15em var(--clr_blue);
 }
 
 .max {
@@ -64,6 +66,10 @@ html {
     width: var(--main_width);
     position: relative;
     margin: auto;
+}
+
+nav {
+    padding-block: 0.3em;
 }
 
 .navigation,
@@ -85,9 +91,8 @@ html {
     }
 
     & h3 {
-        font-family: var(--font_gs_regular);
+        font-family: var(--font_gs_bold);
         font-size: 1.5em;
-        font-weight: 500;
         color: var(--clr_gray);
     }
 }
@@ -96,12 +101,16 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+    gap: 0.5em;
+
     & a {
         font-family: var(--font_gs_regular);
         font-size: 1em;
         font-weight: 500;
         color: var(--clr_gray);
+        border: var(--primary_border);
+        border-radius: 0.3em;
+        padding: 0.8em 0.6em;
     }
 }
 
