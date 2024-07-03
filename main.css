@@ -55,4 +55,16 @@ html {
     --main_width: 95%;
 }
 
+.max {
+    width: var(--max_width);
+    position: relative;
+    margin: auto;
+}
+.main {
+    width: var(--main_width);
+    position: relative;
+    margin: auto;
+}
+
+
 /* Media Queries */
