@@ -15,6 +15,8 @@ html {
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+
+    background-color: var(--clr_white);
 }
 
 @font-face {
@@ -36,6 +38,9 @@ html {
 
 :root {
     /* Colors */
+    --clr_white: #fafafa;
+    --clr_black: #202124;
+    --clr_gray: #5f6368;
 
     /* Fonts */
 
