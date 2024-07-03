@@ -49,6 +49,8 @@ html {
     --font_gs_regular: gs_regular, arial, sans-serif, system-UI;
 
     /* Others */
+    --max_width: min(100em, 100%);
+    --main_width: 95%;
 }
 
 /* Media Queries */
