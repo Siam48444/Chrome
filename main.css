@@ -66,5 +66,13 @@ html {
     margin: auto;
 }
 
+.navigation,
+.nav_left,
+.nav_logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
+}
 
 /* Media Queries */
