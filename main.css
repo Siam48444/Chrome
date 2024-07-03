@@ -43,6 +43,10 @@ html {
     --clr_gray: #5f6368;
 
     /* Fonts */
+    --font_gs_bold: gs_bold, arial, system-UI;
+    --font_gs_bold_italic: gs_bold_italic, arial, system-UI;
+    --font_gs_italic: gs_italic, arial, system-UI;
+    --font_gs_regular: gs_regular, arial, system-UI;
 
     /* Others */
 }
