@@ -87,6 +87,15 @@ nav {
     gap: 0.5em;
     padding: 0.2em;
 
+    border: var(--primary_border);
+        border-color: transparent;
+        border-radius: var(--nav_link_border_radius);
+
+    &:is(:focus-visible, :active) {
+        outline: none;
+        border: var(--primary_border);
+    }
+
     & svg {
         height: 2.2em;
     }
@@ -109,10 +118,11 @@ nav {
         font-size: 1em;
         font-weight: 500;
         color: var(--clr_gray);
+        padding: var(--nav_link_padding);
+        
         border: var(--primary_border);
         border-color: transparent;
         border-radius: var(--nav_link_border_radius);
-        padding: var(--nav_link_padding);
 
         transition-property: color;
         transition-duration: var(--primary_transition_time);
