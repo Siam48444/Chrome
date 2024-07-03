@@ -125,8 +125,9 @@ nav {
     }
 
     & h3 {
-        font-family: var(--font_gs_bold);
+        font-family: var(--f5);
         font-size: 1.5em;
+        font-weight: 500;
         color: var(--clr_gray);
     }
 }
