@@ -20,23 +20,23 @@ html {
 }
 
 @font-face {
-    font-family:  Google_Sans_Bold;
+    font-family:  google_sans_bold;
     src: url(Fonts/Google_Sans_Bold.ttf);
 }
 @font-face {
-    font-family:  Google_Sans_Light;
+    font-family:  google_sans_light;
     src: url(Fonts/Google_Sans_Light.ttf);
 }
 @font-face {
-    font-family:  Google_Sans_Medium;
+    font-family:  google_sans_medium;
     src: url(Fonts/Google_Sans_Medium.ttf);
 }
 @font-face {
-    font-family:  Google_Sans_Regular;
+    font-family:  google_sans_regular;
     src: url(Fonts/Google_Sans_Regular.ttf);
 }
 @font-face {
-    font-family:  Google_Sans_Thin;
+    font-family:  google_sans_thin;
     src: url(Fonts/Google_Sans_Thin.ttf);
 }
 
@@ -52,8 +52,6 @@ html {
 
     /* Fonts */
     --google_sans_18pt: google_sans_18pt, arial, sans-serif, system-UI;
-    --google_sans_text: google_sans_text, arial, sans-serif, system-UI;
-    --google_sans_text_medium: google_sans_text_medium, arial, sans-serif, system-UI;
 
     /* Others */
     --max_width: min(100em, 100%);
