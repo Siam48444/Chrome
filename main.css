@@ -38,7 +38,7 @@ html {
     --clr_light_blue: #e8f0fe;
     --clr_white: #fafafa;
     --clr_black: #202124;
-    --clr_gray: #5b5e63;
+    --clr_gray: #6b6d72;
 
     /* Fonts */
     --google_sans_18pt: google_sans_18pt, arial, sans-serif, system-UI;
@@ -87,7 +87,6 @@ nav {
 .nav_logo {
     gap: 0.5em;
     padding: 0.2em;
-
     border: var(--primary_border);
     border-color: transparent;
     border-radius: var(--nav_link_border_radius);
@@ -98,7 +97,7 @@ nav {
     }
 
     & svg {
-        height: 2.2em;
+        height: 2em;
     }
 
     & h3 {
@@ -121,10 +120,10 @@ nav {
     font-weight: 500;
     color: var(--clr_gray);
     padding: var(--nav_link_padding);
-
     border: var(--primary_border);
     border-color: transparent;
     border-radius: var(--nav_link_border_radius);
+    outline: none;
 
     transition-property: color;
     transition-duration: var(--primary_transition_time);
@@ -134,7 +133,6 @@ nav {
     }
 
     &:is(:focus-visible, :active) {
-        outline: none;
         border: var(--primary_border);
     }
 }
