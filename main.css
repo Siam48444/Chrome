@@ -47,11 +47,12 @@ html {
 
     /* Others */
     --max_width: min(100em, 100%);
-    --main_width: 95%;
+    --main_width: 98%;
 
     --primary_border: solid 0.15em var(--clr_blue);
     --nav_link_padding: 0.6em;
     --nav_link_border_radius: 0.3em;
+    --download_chrome_button_padding: 0.8em 1.2em;
 
     --primary_transition_time: 300ms;
 }
@@ -67,8 +68,12 @@ html {
     margin: auto;
 }
 
+:is(a, button):is(:focus-visible, :active) {
+    border-color: var(--clr_blue);
+}
+
 nav {
-    padding-block: 0.3em;
+    padding-block: 0.4em;
 }
 
 .navigation,
@@ -92,9 +97,9 @@ nav {
     border-radius: var(--nav_link_border_radius);
     outline: none;
 
-    &:is(:focus-visible, :active) {
+    /* &:is(:focus-visible, :active) {
         border: var(--primary_border);
-    }
+    } */
 
     & svg {
         height: 2em;
@@ -132,8 +137,30 @@ nav {
         color: var(--clr_black);
     }
 
-    &:is(:focus-visible, :active) {
+    /* &:is(:focus-visible, :active) {
         border: var(--primary_border);
+    } */
+}
+
+.download_chrome_button {
+    background-color: var(--clr_light_blue);
+    font-family: var(--google_sans_text_medium);
+    font-size: 1em;
+    font-weight: 500;
+    color: var(--clr_blue);
+    border: var(--primary_border);
+    border-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    padding: var(--download_chrome_button_padding);
+    border-radius: 15em;
+    cursor: pointer;
+
+    & svg {
+        fill: var(--clr_blue);
+        height: 1.3em;
     }
 }
 
