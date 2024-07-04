@@ -81,6 +81,7 @@ nav {
     position: fixed;
     inset: 0 0 auto 0;
     background-color: var(--clr_white);
+    z-index: 9;
 }
 
 .navigation,
@@ -104,13 +105,6 @@ nav {
     border-color: transparent;
     border-radius: var(--nav_link_border_radius);
     outline: none;
-
-    transition-property: background-color;
-    transition-duration: var(--primary_transition_time);
-
-    &:hover {
-        background-color: var(--clr_gray_lighter);
-    }
 
     & svg {
         height: 2em;
