@@ -1,1 +1,27 @@
+.hero_container {
+    padding-block: 8em 5em;
+}
+
+.hero_head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+
+    & svg {
+        height: 5em;
+        margin: auto;
+    }
+
+    & h1 {
+        font-family: var(--google_sans_text_medium);
+        font-weight: 800;
+        font-size: 4em;
+        text-align: center;
+        line-height: 1.2;
+        color: var(--clr_black);
+    }
+}
+
 /* Media Queries */
