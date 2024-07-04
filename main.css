@@ -121,7 +121,7 @@ nav {
     }
 
     & h3 {
-        font-family: var(--google_sans_text_medium);
+        font-family: var(--google_sans_medium);
         font-size: 1.5em;
         font-weight: 500;
         color: var(--clr_gray);
@@ -135,7 +135,7 @@ nav {
 }
 
 .nav_link {
-    font-family: var(--google_sans_text_medium);
+    font-family: var(--google_sans_medium);
     font-size: 1em;
     font-weight: 500;
     color: var(--clr_gray);
@@ -156,7 +156,7 @@ nav {
 
 .download_chrome_button {
     background-color: var(--clr_light_blue);
-    font-family: var(--google_sans_text_medium);
+    font-family: var(--google_sans_medium);
     font-size: 1em;
     font-weight: 500;
     color: var(--clr_blue);
