@@ -1,5 +1,5 @@
 old_Y = window.scrollY;
-function nav_scroll_direction_change() {
+function nav_scroll_direction_animation() {
     function scrolling_down() {
         gsap.to("nav", { y: "-105%", duration: 2, ease: "expo.out" });
     }
@@ -11,5 +11,5 @@ function nav_scroll_direction_change() {
     old_Y = window.scrollY;
 }
 window.addEventListener("scroll", () => {
-    nav_scroll_direction_change();
+    nav_scroll_direction_animation();
 });
