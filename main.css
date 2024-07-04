@@ -78,6 +78,7 @@ nav {
     padding-block: 0.5em;
     position: fixed;
     inset: 0 0 auto 0;
+    background-color: var(--clr_white);
 }
 
 .navigation,
