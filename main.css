@@ -69,7 +69,8 @@ html {
 }
 
 :is(a, button):is(:focus-visible, :active) {
-    border-color: var(--clr_blue);
+    border: var(--primary_border);
+    outline: none;
 }
 
 nav {
