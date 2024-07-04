@@ -51,7 +51,11 @@ html {
     --clr_gray_lighter: #eeeeee;
 
     /* Fonts */
-    --google_sans_18pt: google_sans_18pt, arial, sans-serif, system-UI;
+    --google_sans_bold: google_sans_bold, arial, sans-serif, system-UI;
+    --google_sans_light: google_sans_light, arial, sans-serif, system-UI;
+    --google_sans_medium: google_sans_medium, arial, sans-serif, system-UI;
+    --google_sans_regular: google_sans_regular, arial, sans-serif, system-UI;
+    --google_sans_thin: google_sans_thin, arial, sans-serif, system-UI;
 
     /* Others */
     --max_width: min(100em, 100%);
