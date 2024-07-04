@@ -20,16 +20,8 @@ html {
 }
 
 @font-face {
-    font-family: google_sans_18pt;
-    src: url(Fonts/Google_Sans_18pt.ttf);
-}
-@font-face {
-    font-family: google_sans_text;
-    src: url(Fonts/Google_Sans_Text.ttf);
-}
-@font-face {
-    font-family: google_sans_text_medium;
-    src: url(Fonts/Google_Sans_Text_Medium.ttf);
+    font-family:  ;
+    src: url(Fonts/);
 }
 
 :root {
