@@ -98,10 +98,6 @@ nav {
     border-radius: var(--nav_link_border_radius);
     outline: none;
 
-    /* &:is(:focus-visible, :active) {
-        border: var(--primary_border);
-    } */
-
     & svg {
         height: 2em;
     }
@@ -137,10 +133,6 @@ nav {
     &:hover {
         color: var(--clr_black);
     }
-
-    /* &:is(:focus-visible, :active) {
-        border: var(--primary_border);
-    } */
 }
 
 .download_chrome_button {
