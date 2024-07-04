@@ -40,6 +40,7 @@ html {
     --clr_white: #fafafa;
     --clr_black: #202124;
     --clr_gray: #6b6d72;
+    --clr_gray_lighter: #eeeeee;
 
     /* Fonts */
     --google_sans_18pt: google_sans_18pt, arial, sans-serif, system-UI;
@@ -53,7 +54,8 @@ html {
     --primary_border: solid 0.15em var(--clr_blue);
     --nav_link_padding: 0.6em;
     --nav_link_border_radius: 0.3em;
-    --download_chrome_button_padding: 0.8em 1.2em;
+
+    --download_chrome_button_padding: 0.7em 1.1em;
 
     --primary_transition_time: 300ms;
 }
@@ -103,6 +105,13 @@ nav {
     border-radius: var(--nav_link_border_radius);
     outline: none;
 
+    transition-property: background-color;
+    transition-duration: var(--primary_transition_time);
+
+    &:hover {
+        background-color: var(--clr_gray_lighter);
+    }
+
     & svg {
         height: 2em;
     }
@@ -132,11 +141,12 @@ nav {
     border-radius: var(--nav_link_border_radius);
     outline: none;
 
-    transition-property: color;
+    transition-property: color, background-color;
     transition-duration: var(--primary_transition_time);
 
     &:hover {
         color: var(--clr_black);
+        background-color: var(--clr_gray_lighter);
     }
 }
 
@@ -155,6 +165,9 @@ nav {
     padding: var(--download_chrome_button_padding);
     border-radius: 15em;
     cursor: pointer;
+
+    transition-property: background-color;
+    transition-duration: var(--primary_transition_time);
 
     & svg {
         fill: var(--clr_blue);
