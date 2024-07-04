@@ -20,8 +20,24 @@ html {
 }
 
 @font-face {
-    font-family:  ;
-    src: url(Fonts/);
+    font-family:  Google_Sans_Bold;
+    src: url(Fonts/Google_Sans_Bold.ttf);
+}
+@font-face {
+    font-family:  Google_Sans_Light;
+    src: url(Fonts/Google_Sans_Light.ttf);
+}
+@font-face {
+    font-family:  Google_Sans_Medium;
+    src: url(Fonts/Google_Sans_Medium.ttf);
+}
+@font-face {
+    font-family:  Google_Sans_Regular;
+    src: url(Fonts/Google_Sans_Regular.ttf);
+}
+@font-face {
+    font-family:  Google_Sans_Thin;
+    src: url(Fonts/Google_Sans_Thin.ttf);
 }
 
 :root {
