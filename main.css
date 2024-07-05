@@ -20,23 +20,23 @@ html {
 }
 
 @font-face {
-    font-family:  google_sans_bold;
+    font-family: google_sans_bold;
     src: url(Fonts/Google_Sans_Bold.ttf);
 }
 @font-face {
-    font-family:  google_sans_light;
+    font-family: google_sans_light;
     src: url(Fonts/Google_Sans_Light.ttf);
 }
 @font-face {
-    font-family:  google_sans_medium;
+    font-family: google_sans_medium;
     src: url(Fonts/Google_Sans_Medium.ttf);
 }
 @font-face {
-    font-family:  google_sans_regular;
+    font-family: google_sans_regular;
     src: url(Fonts/Google_Sans_Regular.ttf);
 }
 @font-face {
-    font-family:  google_sans_thin;
+    font-family: google_sans_thin;
     src: url(Fonts/Google_Sans_Thin.ttf);
 }
 
@@ -48,7 +48,7 @@ html {
     --clr_white: #fafafa;
     --clr_black: #101114;
     --clr_gray: #6b6d72;
-    --clr_gray_lighter: #eeeeee;
+    --clr_gray_lighter: #efefef;
 
     /* Fonts */
     --google_sans_bold: google_sans_bold, arial, sans-serif, system-UI;
