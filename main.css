@@ -141,7 +141,7 @@ nav {
 
 .nav_left,
 .navigation {
-    gap: 2em;
+    gap: 1em;
 }
 
 .nav_logo {
@@ -201,6 +201,25 @@ nav {
     pointer-events: none;
 }
 
+.hamburger_button {
+    background-color: var(--clr_white);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3em;
+    padding: 0.5em;
+    width: 3em;
+    aspect-ratio: 1;
+    border: none;
+}
+
+.hamburger_lines {
+    width: 90%;
+    height: 0.15em;
+    background-color: var(--clr_black);
+}
+
 /* Media Queries */
 @media (width < 1000px) {
     .nav_link_container,
@@ -209,6 +228,6 @@ nav {
     }
 
     .hamburger_button {
-        display: inline;
+        display: flex;
     }
 }
