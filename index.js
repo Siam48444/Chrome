@@ -21,7 +21,8 @@ window.addEventListener("scroll", () => jumplink_appear_animation());
 function hero_images_animation() {
     const hero_images = document.querySelectorAll(".hero_images_wrapper img");
 
-    gsap.to(".hero_images_wrapper", { x: "-50%", scrollTrigger: { trigger: "main", start: "top 0", scrub: 1 } });
-    gsap.from(hero_images[0], { x: "30%", y: "-30%", scrollTrigger: { trigger: "main", start: "top 0", scrub: 1 } });
+    gsap.to(hero_images[0], { x: "-35%", y: "-35%", scale: 0.9, scrollTrigger: { trigger: "main", start: "top 0", scrub: 1 } });
+    gsap.from(hero_images[1], { y: "20%", scale: 0.9, scrollTrigger: { trigger: "main", start: "top 0", scrub: 1 } });
+    gsap.to(hero_images[2], { x: "35%", y: "-35%", scale: 0.9, scrollTrigger: { trigger: "main", start: "top 0", scrub: 1 } });
 }
 hero_images_animation();
