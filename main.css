@@ -202,3 +202,13 @@ nav {
 }
 
 /* Media Queries */
+@media (width < 1000px) {
+    .nav_link_container,
+    .download_chrome_button {
+        display: none;
+    }
+
+    .hamburger_button {
+        display: inline;
+    }
+}
