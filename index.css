@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1em;
+    gap: 1.5em;
 }
 
 .hero_head {
@@ -57,6 +57,13 @@
         color: var(--clr_black);
         background-color: var(--clr_gray_lighter);
     }
+}
+
+.need_chrome p {
+    font-family: var(--google_sans_regular);
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--clr_black);
 }
 
 /* Media Queries */

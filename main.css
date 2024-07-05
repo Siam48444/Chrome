@@ -45,10 +45,8 @@ html {
 
     /* Fonts */
     --google_sans_bold: google_sans_bold, arial, sans-serif, system-UI;
-    --google_sans_light: google_sans_light, arial, sans-serif, system-UI;
     --google_sans_medium: google_sans_medium, arial, sans-serif, system-UI;
     --google_sans_regular: google_sans_regular, arial, sans-serif, system-UI;
-    --google_sans_thin: google_sans_thin, arial, sans-serif, system-UI;
 
     /* Others */
     --max_width: min(100em, 100%);
@@ -108,6 +106,16 @@ html {
 
     &:hover {
         background-color: var(--clr_light_blue_darker);
+    }
+}
+
+.normal_link {
+    color: var(--clr_blue);
+    border: var(--primary_border);
+    border-color: transparent;
+
+    &:hover {
+        text-decoration: underline;
     }
 }
 
