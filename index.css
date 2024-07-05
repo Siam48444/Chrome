@@ -68,8 +68,7 @@
 }
 
 .hero_images_container {
-    overflow-x: hidden;
-    background-color: coral;
+    overflow: hidden;
 }
 
 .hero_images_wrapper {
@@ -80,7 +79,8 @@
 
     & img {
         height: 100%;
-    } 
+        object-fit: contain;
+    }
 }
 
 /* Media Queries */
