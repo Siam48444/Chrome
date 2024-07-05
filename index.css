@@ -92,7 +92,7 @@
     .hero_head svg {
         height: 3.8em;
     }
-    
+
     .hero_head h1 {
         font-size: 3.8em;
     }
@@ -101,7 +101,7 @@
         display: none;
     }
 
-    .hero_images_wrapper  {
+    .hero_images_wrapper {
         height: 20em;
     }
 }
