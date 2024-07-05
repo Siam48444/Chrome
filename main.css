@@ -189,6 +189,17 @@ nav {
     z-index: 9;
     scale: 0.9;
     opacity: 0.5;
+    pointer-events: none;
+}
+
+.jumplink_appear {
+    scale: 1;
+    opacity: 1;
+    pointer-events: all;
+}
+
+main {
+    background-color: red;
 }
 
 /* Media Queries */
