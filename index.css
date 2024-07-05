@@ -18,7 +18,7 @@
         font-family: var(--google_sans_bold);
         font-size: 4.5em;
         text-align: center;
-        line-height: 1;
+        line-height: 1.1;
         color: var(--clr_black);
     }
 }
