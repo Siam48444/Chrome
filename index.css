@@ -67,4 +67,20 @@
     color: var(--clr_black);
 }
 
+.hero_images_container {
+    overflow-x: hidden;
+    background-color: coral;
+}
+
+.hero_images_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+
+    & img {
+        height: 100%;
+    } 
+}
+
 /* Media Queries */

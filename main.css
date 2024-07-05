@@ -15,6 +15,7 @@ html {
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    overflow: hidden auto;
 
     background-color: var(--clr_white);
 }
