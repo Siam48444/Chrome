@@ -14,7 +14,7 @@ function jumplink_appear_animation() {
 
     main.getBoundingClientRect().bottom < 0 ? jumplink_appear() : jumplink_disappear();
 }
-
 window.addEventListener("scroll", () => jumplink_appear_animation());
 
+// Hero images animation.
 gsap.to(".hero_images_wrapper", { x: "-100%", scrollTrigger: { trigger: "main", start: "top 0", scrub: 1 } });
