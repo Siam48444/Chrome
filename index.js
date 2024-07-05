@@ -1,12 +1,17 @@
 function jumplink_appear_animation() {
-    fixed_jumplink_container = document.querySelector(".fixed_jumplink_container");
+    const main = document.querySelector("main");
+    const fixed_jumplink_container = document.querySelector(".fixed_jumplink_container");
 
-    if (document.querySelector("main").getBoundingClientRect().bottom < 0) {
+    function jumplink_appear() {
         gsap.to("nav", { y: "-105%", duration: 0.3 });
         fixed_jumplink_container.classList.add("jumplink_appear");
-    } else {
+    }
+    function jumplink_disappear() {
         gsap.to("nav", { y: 0, duration: 0.3 });
         fixed_jumplink_container.classList.remove("jumplink_appear");
     }
+
+    main.getBoundingClientRect().bottom < 0 ? jumplink_appear() : jumplink_disappear();
 }
+
 window.addEventListener("scroll", () => jumplink_appear_animation());
