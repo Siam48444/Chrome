@@ -90,7 +90,7 @@
 /* Media Queries */
 @media (width < 1000px) {
     .hero_head svg {
-        height: 3.8em;
+        height: 3.5em;
     }
 
     .hero_head h1 {
@@ -102,6 +102,16 @@
     }
 
     .hero_images_wrapper {
-        height: 20em;
+        height: 18em;
+    }
+}
+
+@media (width < 600px) {
+    .hero_head h1 {
+        font-size: 3em;
+    }
+
+    .hero_images_wrapper {
+        height: 12em;
     }
 }
