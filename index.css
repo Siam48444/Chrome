@@ -29,6 +29,7 @@
 
 .jumplink_wrapper {
     background-color: var(--clr_white);
+    margin-inline: auto;
     width: fit-content;
     border-radius: 15em;
     display: flex;

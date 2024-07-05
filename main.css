@@ -193,6 +193,7 @@ nav {
 .fixed_jumplink_container {
     position: fixed;
     z-index: 9;
+    margin-block: 1em;
 }
 
 /* Media Queries */
