@@ -77,7 +77,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2em;
+    gap: 1em;
     height: 30em;
 
     & img {
