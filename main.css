@@ -187,6 +187,8 @@ nav {
 .fixed_jumplink_container {
     position: fixed;
     z-index: 9;
+    scale: 0.9;
+    opacity: 0.5;
 }
 
 /* Media Queries */
