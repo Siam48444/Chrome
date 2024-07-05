@@ -65,6 +65,7 @@
     font-weight: 400;
     font-size: 1em;
     color: var(--clr_black);
+    text-align: center;
 }
 
 .hero_images_container {
