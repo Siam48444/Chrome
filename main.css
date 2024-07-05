@@ -53,13 +53,15 @@ html {
     --max_width: min(100em, 100%);
     --main_width: 98%;
 
+    --primary_transition_time: 300ms;
     --primary_border: solid 0.15em var(--clr_blue);
+    --primary_button_padding: 0.7em 1.1em;
+
     --nav_link_padding: 0.6em;
     --nav_link_border_radius: 0.4em;
 
-    --primary_button_padding: 0.7em 1.1em;
-
-    --primary_transition_time: 300ms;
+    --jumplink_wrapper_padding: 0.5em;
+    --jumplink_padding: 0.5em;
 }
 
 .max {
@@ -173,6 +175,20 @@ nav {
         color: var(--clr_black);
         background-color: var(--clr_gray_lighter);
     }
+}
+
+.jumplink_wrapper {
+    background-color: var(--clr_white);
+    margin-inline: auto;
+    margin-block: 2em;
+    width: fit-content;
+    border-radius: 15em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    background-color: red;
+    padding: var(--jumplink_wrapper_padding);
 }
 
 /* Media Queries */
