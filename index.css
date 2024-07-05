@@ -69,15 +69,17 @@
 
 .hero_images_container {
     padding-block: 2em;
+    width: 100%;
 }
 
 .hero_images_wrapper {
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     gap: 2em;
     height: 30em;
-    
+
     & img {
         height: 100%;
         object-fit: contain;
