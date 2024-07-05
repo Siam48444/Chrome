@@ -4,11 +4,11 @@ function jumplink_appear_animation() {
 
     function jumplink_appear() {
         gsap.to("nav", { y: "-105%", duration: 0.3 });
-        fixed_jumplink_container.classList.add("jumplink_appear");
+        gsap.to(fixed_jumplink_container, { opacity: 1, scale: 1, duration: 0.3 });
     }
     function jumplink_disappear() {
         gsap.to("nav", { y: 0, duration: 0.3 });
-        fixed_jumplink_container.classList.remove("jumplink_appear");
+        gsap.to(fixed_jumplink_container, { opacity: 0, scale: 0.9, duration: 0.3 });
     }
 
     main.getBoundingClientRect().bottom < 0 ? jumplink_appear() : jumplink_disappear();
