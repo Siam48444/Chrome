@@ -75,11 +75,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 3em;
-
+    gap: 2em;
+    height: 30em;
+    
     & img {
+        height: 100%;
         object-fit: contain;
-        height: 30em;
         border-radius: 1em;
     }
 }
