@@ -5,7 +5,6 @@
     align-items: center;
     justify-content: center;
     gap: 1.5em;
-    overflow: hidden;
 }
 
 .hero_head {
@@ -77,7 +76,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
     gap: 2em;
     height: 30em;
 

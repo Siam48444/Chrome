@@ -194,6 +194,7 @@ nav {
 .fixed_jumplink_container {
     position: fixed;
     z-index: 9;
+    inset: 0 0 auto 0;
     margin-block: 1em;
     scale: 0.9;
     opacity: 0;
