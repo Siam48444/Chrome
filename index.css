@@ -85,6 +85,10 @@
         height: 100%;
         object-fit: contain;
         border-radius: 0.5em;
+
+        &:nth-child(3) {
+            display: none;
+        }
     }
 }
 
@@ -102,17 +106,16 @@
         display: none;
     }
 
-    .hero_images_wrapper {
-        height: 18em;
+    .hero_images_wrapper img:nth-child(2) {
+        display: none;
+    }
+    .hero_images_wrapper img:nth-child(3) {
+        display: block;
     }
 }
 
 @media (width < 600px) {
     .hero_head h1 {
         font-size: 3em;
-    }
-
-    .hero_images_wrapper {
-        height: 12em;
     }
 }
