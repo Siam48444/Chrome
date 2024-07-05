@@ -29,3 +29,8 @@ function hero_images_animation() {
     gsap.to(hero_images[3], { x: "10%", y: "-40%", scale: 0.8, scrollTrigger: { trigger: "main", start: "top 0", scrub: 1 } });
 }
 mm.add("(min-width: 1000px)", () => hero_images_animation());
+
+function loaded_animation() {
+    gsap.from(".hero_container", { opacity: 0, y: "8%", duration: 0.5 });
+}
+loaded_animation();
