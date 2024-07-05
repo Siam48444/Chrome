@@ -38,7 +38,7 @@ html {
     --clr_light_blue: #e5eefd;
     --clr_light_blue_darker: #d5e0f7;
     --clr_white: #fafafa;
-    --clr_black: #101114;
+    --clr_black: #202124;
     --clr_gray: #6b6d72;
     --clr_gray_lighter: #efefef;
 
@@ -57,7 +57,7 @@ html {
     --nav_link_padding: 0.6em;
     --nav_link_border_radius: 0.3em;
 
-    --download_chrome_button_padding: 0.7em 1.1em;
+    --primary_button_padding: 0.7em 1.1em;
 
     --primary_transition_time: 300ms;
 }
@@ -76,6 +76,35 @@ html {
 :is(a, button):is(:focus-visible, :active) {
     border: var(--primary_border);
     outline: none;
+}
+
+.primary_button {
+    background-color: var(--clr_light_blue);
+    font-weight: 500;
+    font-family: var(--google_sans_medium);
+    font-size: 1em;
+    color: var(--clr_blue);
+    border: var(--primary_border);
+    border-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    padding: var(--primary_button_padding);
+    border-radius: 15em;
+    cursor: pointer;
+
+    transition-property: background-color;
+    transition-duration: var(--primary_transition_time);
+
+    & svg {
+        fill: var(--clr_blue);
+        height: 1.3em;
+    }
+
+    &:hover {
+        background-color: var(--clr_light_blue_darker);
+    }
 }
 
 nav {
@@ -143,35 +172,6 @@ nav {
     &:hover {
         color: var(--clr_black);
         background-color: var(--clr_gray_lighter);
-    }
-}
-
-.download_chrome_button {
-    background-color: var(--clr_light_blue);
-    font-family: var(--google_sans_medium);
-    font-size: 1em;
-    font-weight: 500;
-    color: var(--clr_blue);
-    border: var(--primary_border);
-    border-color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5em;
-    padding: var(--download_chrome_button_padding);
-    border-radius: 15em;
-    cursor: pointer;
-
-    transition-property: background-color;
-    transition-duration: var(--primary_transition_time);
-
-    & svg {
-        fill: var(--clr_blue);
-        height: 1.3em;
-    }
-
-    &:hover {
-        background-color: var(--clr_light_blue_darker);
     }
 }
 
