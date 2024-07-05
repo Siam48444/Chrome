@@ -1,4 +1,5 @@
 var tl = gsap.timeline(); // GSAP Timeline
+var mm = gsap.matchMedia(); // GSAP Match-Media
 
 function jumplink_appear_animation() {
     const main = document.querySelector("main");
@@ -25,4 +26,4 @@ function hero_images_animation() {
     gsap.from(hero_images[1], { y: "10%", scale: 0.8, scrollTrigger: { trigger: "main", start: "top 0", end: "top -20%", scrub: 1 } });
     gsap.to(hero_images[2], { x: "20%", y: "-35%", scale: 0.8, scrollTrigger: { trigger: "main", start: "top 0", scrub: 1 } });
 }
-hero_images_animation();
+mm.add("(min-width: 1000px)", () => hero_images_animation());
