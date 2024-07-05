@@ -233,3 +233,10 @@ nav {
         display: flex;
     }
 }
+
+@media (width < 600px) {
+    .nav_logo {
+        transform-origin: left;
+        transform: scale(0.8);
+    }
+}
