@@ -113,7 +113,6 @@ html {
 }
 
 nav {
-    padding-block: 0.5em;
     position: fixed;
     inset: 0 0 auto 0;
     background-color: var(--clr_white);
@@ -129,6 +128,7 @@ nav {
 }
 
 .navigation {
+    padding-block: 0.5em;
     box-shadow: var(--nav_box_shadow);
 }
 
