@@ -89,6 +89,14 @@
 
 /* Media Queries */
 @media (width < 1000px) {
+    .hero_head svg {
+        height: 3.8em;
+    }
+    
+    .hero_head h1 {
+        font-size: 3.8em;
+    }
+
     .jumplink_wrapper {
         display: none;
     }
