@@ -211,7 +211,9 @@ nav {
     padding: 0.5em;
     width: 3em;
     aspect-ratio: 1;
-    border: none;
+    border: var(--primary_border);
+    border-color: transparent;
+    border-radius: var(--nav_link_border_radius);
 }
 
 .hamburger_lines {
