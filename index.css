@@ -1,5 +1,10 @@
 .hero_container {
     padding-block: 8em 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
 }
 
 .hero_head {
@@ -11,7 +16,6 @@
 
     & svg {
         height: 4.2em;
-        margin: auto;
     }
 
     & h1 {
@@ -25,8 +29,6 @@
 
 .jumplink_wrapper {
     background-color: var(--clr_white);
-    margin-inline: auto;
-    margin-block: 2em;
     width: fit-content;
     border-radius: 15em;
     display: flex;
