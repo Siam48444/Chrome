@@ -68,7 +68,6 @@
 }
 
 .hero_images_container {
-    overflow: hidden;
     padding-block: 2em;
 }
 
@@ -79,8 +78,9 @@
     gap: 3em;
 
     & img {
-        height: 100%;
         object-fit: contain;
+        height: 30em;
+        border-radius: 1em;
     }
 }
 
