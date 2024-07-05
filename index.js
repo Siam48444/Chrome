@@ -6,14 +6,14 @@ function jumplink_appear_animation() {
 
     function jumplink_appear() {
         gsap.to("nav", { y: "-105%", duration: 0.3 });
-        gsap.to(".fixed_jumplink_container", { opacity: 1, scale: 1, pointerEvents: "all", duration: 0.5 });
+        gsap.to(".fixed_jumplink_container", { opacity: 1, scale: 1, pointerEvents: "all", duration: 0.3 });
     }
     function jumplink_disappear() {
         gsap.to("nav", { y: 0, duration: 0.3 });
-        gsap.to(".fixed_jumplink_container", { opacity: 0, scale: 0.9, pointerEvents: "none", duration: 0.5 });
+        gsap.to(".fixed_jumplink_container", { opacity: 0, scale: 0.9, pointerEvents: "none", duration: 0.3 });
     }
 
-    main.getBoundingClientRect().bottom < 0 ? jumplink_appear() : jumplink_disappear();
+    main.getBoundingClientRect().bottom < window.innerHeight / 2 ? jumplink_appear() : jumplink_disappear();
 }
 window.addEventListener("scroll", () => jumplink_appear_animation());
 
