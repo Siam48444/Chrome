@@ -222,6 +222,10 @@ nav {
     background-color: var(--clr_black);
 }
 
+.download_chrome_button {
+    position: relative;
+}
+
 /* Media Queries */
 @media (width < 1000px) {
     .nav_link_container,
