@@ -21,4 +21,11 @@ function jumplink_appear_animation() {
 }
 window.addEventListener("scroll", () => jumplink_appear_animation());
 
-gsap.from(".heading_special .char", { y: "111%", duration: 1.5, stagger: 0.01, ease: "elastic.out(1,0.4)" });
+gsap.from(".heading_special .char", {
+    y: "130%",
+    duration: 1.5,
+    stagger: 0.01,
+    ease: "elastic.out(1,0.4)",
+    delay: 0.2,
+    scrollTrigger: { trigger: ".heading_special .char", start: "top 90%" },
+});
