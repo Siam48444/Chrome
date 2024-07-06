@@ -7,9 +7,8 @@ function loaded_animation() {
 }
 loaded_animation();
 
+const main = document.querySelector("main");
 function jumplink_appear_animation() {
-    const main = document.querySelector("main");
-
     function jumplink_appear() {
         mm.add("(min-width: 1000px)", () => {
             gsap.to(".navigation", { y: "-105%", duration: 0.3 });
@@ -22,7 +21,6 @@ function jumplink_appear_animation() {
             // gsap.to(".fixed_jumplink_container", { opacity: 0, scale: 0.9, pointerEvents: "none", duration: 0.3 });
         });
     }
-
     main.getBoundingClientRect().bottom < main.clientHeight / 3 ? jumplink_appear() : jumplink_disappear();
 }
 window.addEventListener("scroll", () => jumplink_appear_animation());
