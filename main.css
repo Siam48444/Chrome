@@ -189,7 +189,6 @@ nav {
     position: fixed;
     z-index: 9;
     inset: 1em 0 auto 0;
-    scale: 0.9;
     opacity: 0;
     pointer-events: none;
     transform: translateY(150%);
