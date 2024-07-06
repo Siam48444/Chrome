@@ -44,6 +44,7 @@
 .jumplink {
     font-family: var(--google_sans_medium);
     font-size: 1em;
+    font-weight: 500;
     color: var(--clr_gray);
     border: var(--primary_border);
     border-color: transparent;

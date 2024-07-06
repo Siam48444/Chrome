@@ -155,7 +155,7 @@ nav {
     margin-right: 1em;
 
     & svg {
-        height: 2.3em;
+        height: 2.5em;
     }
 }
 
@@ -190,9 +190,42 @@ nav {
     z-index: 9;
     inset: 0 0 auto 0;
     margin-top: 1em;
-    scale: 0.9;
+    /* scale: 0.9;
     opacity: 0;
-    pointer-events: none;
+    pointer-events: none; */
+}
+
+.fixed_jumplink_wrapper {
+    background-color: var(--clr_white);
+    margin-inline: auto;
+    width: fit-content;
+    border-radius: 15em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    padding: var(--jumplink_wrapper_padding);
+    box-shadow: var(--jumplink_wrapper_box_shadow);
+}
+
+.fixed_jumplink {
+    font-family: var(--google_sans_medium);
+    font-size: 1em;
+    font-weight: 500;
+    color: var(--clr_gray);
+    border: var(--primary_border);
+    border-color: transparent;
+    border-radius: 15em;
+    outline: none;
+    padding: var(--jumplink_padding);
+
+    transition-property: color, background-color;
+    transition-duration: var(--primary_transition_time);
+
+    &:hover {
+        color: var(--clr_black);
+        background-color: var(--clr_gray_lighter);
+    }
 }
 
 .hamburger_button {

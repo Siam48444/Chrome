@@ -3,7 +3,7 @@ var mm = gsap.matchMedia(); // GSAP Match-Media
 Splitting(); // Splitting Js
 
 function loaded_animation() {
-    gsap.from("nav", { y: "-100%", duration: 0.5 });
+    gsap.from(".navigation", { y: "-100%", duration: 0.5 });
 }
 loaded_animation();
 
@@ -12,16 +12,14 @@ function jumplink_appear_animation() {
 
     function jumplink_appear() {
         mm.add("(min-width: 1000px)", () => {
-            gsap.to("nav", { y: "-105%", duration: 0.3 });
-            gsap.to(".download_chrome_qr_code_wrapper", { opacity: 0, pointerEvents: "none", duration: 0.3 });
-            gsap.to(".fixed_jumplink_container", { opacity: 1, scale: 1, pointerEvents: "all", duration: 0.3 });
+            gsap.to(".navigation", { y: "-105%", duration: 0.3 });
+            // gsap.to(".fixed_jumplink_container", { opacity: 1, scale: 1, pointerEvents: "all", duration: 0.3 });
         });
     }
     function jumplink_disappear() {
         mm.add("(min-width: 1000px)", () => {
-            gsap.to("nav", { y: 0, duration: 0.3 });
-            gsap.to(".download_chrome_qr_code_wrapper", { opacity: 1, pointerEvents: "all", duration: 0.3 });
-            gsap.to(".fixed_jumplink_container", { opacity: 0, scale: 0.9, pointerEvents: "none", duration: 0.3 });
+            gsap.to(".navigation", { y: 0, duration: 0.3 });
+            // gsap.to(".fixed_jumplink_container", { opacity: 0, scale: 0.9, pointerEvents: "none", duration: 0.3 });
         });
     }
 
