@@ -22,12 +22,10 @@ html {
 
 @font-face {
     font-family: google_sans_medium;
-    font-weight: 500;
     src: url(Fonts/Google_Sans_Medium.ttf);
 }
 @font-face {
     font-family: google_sans_regular;
-    font-weight: 400;
     src: url(Fonts/Google_Sans_Regular.ttf);
 }
 
@@ -88,6 +86,7 @@ html {
 .primary_button {
     background-color: var(--clr_light_blue);
     font-family: var(--google_sans_medium);
+    font-weight: 500;
     font-size: 1em;
     color: var(--clr_blue);
     border: var(--primary_border);
@@ -169,6 +168,7 @@ nav {
 .nav_link {
     font-family: var(--google_sans_medium);
     font-size: 1em;
+    font-weight: 500;
     color: var(--clr_gray);
     border: var(--primary_border);
     border-color: transparent;

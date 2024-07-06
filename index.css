@@ -21,6 +21,7 @@
     & h1 {
         font-family: var(--google_sans_medium);
         font-size: 4.5em;
+        font-weight: 700;
         text-align: center;
         line-height: 1.1;
         color: var(--clr_black);
@@ -98,15 +99,10 @@
 .updates_title h1 {
     font-family: var(--google_sans_medium);
     font-size: 4em;
+    font-weight: 700;
     color: var(--clr_black);
     text-align: center;
-    line-height: 1.1;
-
-    & > span {
-        background-color: var(--clr_blue);
-        padding: 0.1em 1em;
-        border-radius: 20em;
-    }
+    line-height: 1.2;
 }
 
 /* Media Queries */
