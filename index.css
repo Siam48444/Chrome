@@ -101,6 +101,12 @@
     color: var(--clr_black);
     text-align: center;
     line-height: 1.1;
+
+    & > span {
+        background-color: var(--clr_blue);
+        padding: 0.1em 1em;
+        border-radius: 20em;
+    }
 }
 
 /* Media Queries */
