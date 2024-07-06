@@ -82,8 +82,8 @@
 
     & img {
         height: 100%;
-        object-fit: contain;
         border-radius: 0.5em;
+        box-shadow: -0.3em 0.3em 0.3em var(--clr_gray_light);
 
         &:nth-child(3) {
             display: none;
