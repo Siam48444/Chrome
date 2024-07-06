@@ -2,11 +2,6 @@ var tl = gsap.timeline(); // GSAP Timeline
 var mm = gsap.matchMedia(); // GSAP Match-Media
 Splitting(); // Splitting Js
 
-function loaded_animation() {
-    gsap.from(".navigation", { y: "-100%", duration: 0.5 });
-}
-loaded_animation();
-
 const main = document.querySelector("main");
 function jumplink_appear_animation() {
     function jumplink_appear() {
