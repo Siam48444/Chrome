@@ -1,5 +1,6 @@
 var tl = gsap.timeline(); // GSAP Timeline
 var mm = gsap.matchMedia(); // GSAP Match-Media
+Splitting(); // Splitting Js
 
 function loaded_animation() {
     gsap.from("nav", { y: "-100%", duration: 0.5 });
