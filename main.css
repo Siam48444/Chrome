@@ -186,7 +186,6 @@ nav {
 }
 
 .fixed_jumplink_container {
-    background-color: red;
     position: fixed;
     z-index: 9;
     inset: 1em 0 auto 0;
