@@ -106,6 +106,26 @@
     line-height: 1.2;
 }
 
+.heading_special {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+
+    & svg {
+        height: 4.4em;
+    }
+
+    & h2 {
+        font-family: var(--google_sans_medium);
+        font-size: var(--heading_special_font_size);
+        font-weight: 700;
+        color: var(--clr_blue);
+        text-align: center;
+        line-height: 1.2;
+    }
+}
+
 /* Media Queries */
 @media (width < 1000px) {
     .hero_head svg {

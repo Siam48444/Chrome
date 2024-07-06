@@ -61,6 +61,7 @@ html {
     --jumplink_wrapper_box_shadow: 0 0.15em 0.1em var(--clr_gray_light);
 
     --heading_font_size: 3.6em;
+    --heading_special_font_size: 3.3em;
 }
 
 .words {
