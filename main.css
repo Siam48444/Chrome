@@ -262,12 +262,19 @@ nav {
         padding: var(--primary_button_padding);
         border-radius: 15em;
         cursor: pointer;
-
+        scale: 0.9;
+        opacity: 0;
+        
         & svg {
             fill: var(--clr_white);
             height: 1.3em;
         }
     }
+}
+
+.download_chrome_qr_code_wrapper_open {
+    scale: 1;
+    opacity: 1;
 }
 
 /* Media Queries */
