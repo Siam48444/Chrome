@@ -20,3 +20,5 @@ function jumplink_appear_animation() {
     main.getBoundingClientRect().bottom < main.clientHeight / 3 ? jumplink_appear() : jumplink_disappear();
 }
 window.addEventListener("scroll", () => jumplink_appear_animation());
+
+gsap.from(".heading_special .char", { y: "111%", duration: 1.5, stagger: 0.01, ease: "elastic.out(1,0.4)" });
