@@ -63,6 +63,12 @@ html {
     --jumplink_wrapper_box_shadow: 0 0.15em 0.1em var(--clr_gray_light);
 }
 
+.words {
+    overflow: hidden;
+    display: inline;
+    position: relative;
+}
+
 .max {
     width: var(--max_width);
     position: relative;
