@@ -112,8 +112,8 @@
     justify-content: center;
     gap: 1em;
     background-color: var(--clr_light_blue);
-    border-radius: 20em;
-    padding: 1em 2em;
+    border-radius: var(--heading_special_border_radius);
+    padding: var(--heading_special_padding);
     width: fit-content;
 
     & svg {
