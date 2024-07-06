@@ -23,11 +23,6 @@ function jumplink_appear_animation() {
 }
 window.addEventListener("scroll", () => jumplink_appear_animation());
 
-function download_chrome_button_clicking() {
-    document.querySelector(".download_chrome_qr_code_wrapper").classList.toggle("download_chrome_qr_code_wrapper_open");
-}
-document.querySelector(".download_chrome_button").addEventListener("click", () => download_chrome_button_clicking());
-
 function hero_images_animation() {
     const hero_images = document.querySelectorAll(".hero_images_wrapper img");
 
