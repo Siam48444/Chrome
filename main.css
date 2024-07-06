@@ -189,7 +189,7 @@ nav {
     position: fixed;
     z-index: 9;
     inset: 0 0 auto 0;
-    margin-block: 1em;
+    margin-top: 1em;
     scale: 0.9;
     opacity: 0;
     pointer-events: none;
@@ -215,54 +215,6 @@ nav {
     width: 90%;
     height: 0.15em;
     background-color: var(--clr_black);
-}
-
-.download_chrome_qr_code_wrapper {
-    position: fixed;
-    z-index: 9;
-    inset: 5em 3% auto auto;
-    background-color: var(--clr_white);
-    display: flex;
-    box-shadow: var(--jumplink_wrapper_box_shadow);
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1em;
-    padding: 1em;
-    border-radius: var(--primary_border_radius);
-
-    & img {
-        width: 60%;
-    }
-
-    & p {
-        font-family: var(--google_sans_regular);
-        font-size: 0.8em;
-        color: var(--clr_black);
-    }
-
-    & button {
-        background-color: var(--clr_blue);
-        font-family: var(--google_sans_medium);
-        font-size: 0.9em;
-        color: var(--clr_white);
-        border: var(--primary_border);
-        border-color: transparent;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 0.5em;
-        padding: var(--primary_button_padding);
-        border-radius: 15em;
-        cursor: pointer;
-        scale: 0.9;
-        opacity: 0;
-
-        & svg {
-            fill: var(--clr_white);
-            height: 1.3em;
-        }
-    }
 }
 
 /* Media Queries */
