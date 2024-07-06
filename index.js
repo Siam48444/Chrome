@@ -1,28 +1,6 @@
 var tl = gsap.timeline(); // GSAP Timeline
 var mm = gsap.matchMedia(); // GSAP Match-Media
 
-function jumplink_appear_animation() {
-    const main = document.querySelector("main");
-
-    function jumplink_appear() {
-        mm.add("(min-width: 1000px)", () => {
-            gsap.to("nav", { y: "-105%", duration: 0.3 });
-            gsap.to(".download_chrome_qr_code_wrapper", { opacity: 0, pointerEvents: "none", duration: 0.3 });
-            gsap.to(".fixed_jumplink_container", { opacity: 1, scale: 1, pointerEvents: "all", duration: 0.3 });
-        });
-    }
-    function jumplink_disappear() {
-        mm.add("(min-width: 1000px)", () => {
-            gsap.to("nav", { y: 0, duration: 0.3 });
-            gsap.to(".download_chrome_qr_code_wrapper", { opacity: 1, pointerEvents: "all", duration: 0.3 });
-            gsap.to(".fixed_jumplink_container", { opacity: 0, scale: 0.9, pointerEvents: "none", duration: 0.3 });
-        });
-    }
-
-    main.getBoundingClientRect().bottom < main.clientHeight / 3 ? jumplink_appear() : jumplink_disappear();
-}
-window.addEventListener("scroll", () => jumplink_appear_animation());
-
 function hero_images_animation() {
     const hero_images = document.querySelectorAll(".hero_images_wrapper img");
 
@@ -34,5 +12,6 @@ mm.add("(min-width: 1000px)", () => hero_images_animation());
 
 function loaded_animation() {
     gsap.from(".hero_container", { opacity: 0, y: "8%", duration: 0.5 });
+    gsap.from(".hero_images_wrapper img", { opacity: 0, scale: 0.9, y: "20%", duration: 0.5 });
 }
 loaded_animation();
