@@ -56,6 +56,7 @@ html {
     --primary_transition_time: 300ms;
     --primary_border: solid 0.15em var(--clr_blue);
     --primary_button_padding: 0.7em 1.1em;
+    --primary_border_radius: 1em;
 
     --nav_link_padding: 0.6em;
     --nav_link_border_radius: 0.4em;
@@ -222,8 +223,19 @@ nav {
     background-color: var(--clr_black);
 }
 
-.download_chrome_button {
-    position: relative;
+.download_chrome_qr_code_wrapper {
+    position: fixed;
+    z-index: 9;
+    inset: 5em 1em auto auto;
+    background-color: var(--clr_white);
+    display: flex;
+    box-shadow: var(--jumplink_wrapper_box_shadow);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    padding: 1.5em;
+    border-radius: var(--primary_border_radius);
 }
 
 /* Media Queries */
