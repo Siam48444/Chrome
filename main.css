@@ -21,11 +21,6 @@ html {
 }
 
 @font-face {
-    font-family: google_sans_bold;
-    font-weight: 800;
-    src: url(Fonts/Google_Sans_Bold.ttf);
-}
-@font-face {
     font-family: google_sans_medium;
     font-weight: 500;
     src: url(Fonts/Google_Sans_Medium.ttf);
@@ -48,7 +43,6 @@ html {
     --clr_gray_lighter: #f1f1f1;
 
     /* Fonts */
-    --google_sans_bold: google_sans_bold, arial, sans-serif, system-UI;
     --google_sans_medium: google_sans_medium, arial, sans-serif, system-UI;
     --google_sans_regular: google_sans_regular, arial, sans-serif, system-UI;
 
