@@ -2,8 +2,9 @@ var tl = gsap.timeline(); // GSAP Timeline
 var mm = gsap.matchMedia(); // GSAP Match-Media
 Splitting(); // Splitting Js
 
-const main = document.querySelector("main");
 function jumplink_appear_animation() {
+    const main = document.querySelector("main");
+
     function jumplink_appear() {
         mm.add("(min-width: 1000px)", () => {
             gsap.to(".navigation", { y: "-105%", duration: 0.3 });
