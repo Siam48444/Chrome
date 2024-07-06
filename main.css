@@ -47,7 +47,6 @@ html {
     /* Others */
     --max_width: min(100em, 100%);
     --main_width: 95%;
-    --main_padding_block: 3em;
 
     --primary_transition_time: 300ms;
     --primary_border: solid 0.15em var(--clr_blue);
@@ -79,7 +78,6 @@ html {
     width: var(--main_width);
     position: relative;
     margin: auto;
-    padding-block: var(--main_padding_block);
 }
 
 :is(a, button):is(:focus-visible, :active) {

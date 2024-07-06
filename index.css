@@ -93,6 +93,10 @@
     }
 }
 
+.updates_container {
+    padding-block: 3em;
+}
+
 .updates_title h1 {
     font-family: var(--google_sans_medium);
     font-size: var(--heading_font_size);
