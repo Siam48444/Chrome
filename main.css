@@ -229,7 +229,6 @@ nav {
     z-index: 9;
     inset: 5em 3% auto auto;
     background-color: var(--clr_white);
-    /* background-color: red; */
     display: flex;
     box-shadow: var(--jumplink_wrapper_box_shadow);
     flex-direction: column;
@@ -240,7 +239,7 @@ nav {
     border-radius: var(--primary_border_radius);
 
     & img {
-        width: 70%;
+        width: 60%;
     }
 
     & p {
@@ -251,13 +250,24 @@ nav {
 
     & button {
         background-color: var(--clr_blue);
+        font-family: var(--google_sans_medium);
         font-size: 0.9em;
         color: var(--clr_white);
+        border: var(--primary_border);
+        border-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5em;
+        padding: var(--primary_button_padding);
+        border-radius: 15em;
+        cursor: pointer;
 
         & svg {
             fill: var(--clr_white);
+            height: 1.3em;
         }
-    } 
+    }
 }
 
 /* Media Queries */
