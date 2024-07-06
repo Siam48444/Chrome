@@ -235,7 +235,7 @@ nav {
     align-items: center;
     justify-content: center;
     gap: 1em;
-    padding: 1.5em;
+    padding: 1em;
     border-radius: var(--primary_border_radius);
 
     & img {
@@ -247,6 +247,16 @@ nav {
         font-size: 0.8em;
         color: var(--clr_black);
     }
+
+    & button {
+        background-color: var(--clr_blue);
+        font-size: 0.9em;
+        color: var(--clr_white);
+
+        & svg {
+            fill: var(--clr_white);
+        }
+    } 
 }
 
 /* Media Queries */
