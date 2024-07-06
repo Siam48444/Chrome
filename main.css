@@ -22,14 +22,17 @@ html {
 
 @font-face {
     font-family: google_sans_bold;
+    font-weight: 800;
     src: url(Fonts/Google_Sans_Bold.ttf);
 }
 @font-face {
     font-family: google_sans_medium;
+    font-weight: 500;
     src: url(Fonts/Google_Sans_Medium.ttf);
 }
 @font-face {
     font-family: google_sans_regular;
+    font-weight: 400;
     src: url(Fonts/Google_Sans_Regular.ttf);
 }
 
@@ -84,7 +87,6 @@ html {
 
 .primary_button {
     background-color: var(--clr_light_blue);
-    font-weight: 500;
     font-family: var(--google_sans_medium);
     font-size: 1em;
     color: var(--clr_blue);
@@ -161,7 +163,6 @@ nav {
     & h3 {
         font-family: var(--google_sans_medium);
         font-size: 1.5em;
-        font-weight: 500;
         color: var(--clr_gray);
     }
 }
@@ -175,7 +176,6 @@ nav {
 .nav_link {
     font-family: var(--google_sans_medium);
     font-size: 1em;
-    font-weight: 500;
     color: var(--clr_gray);
     border: var(--primary_border);
     border-color: transparent;
@@ -226,8 +226,9 @@ nav {
 .download_chrome_qr_code_wrapper {
     position: fixed;
     z-index: 9;
-    inset: 5em 1em auto auto;
+    inset: 5em 3% auto auto;
     background-color: var(--clr_white);
+    /* background-color: red; */
     display: flex;
     box-shadow: var(--jumplink_wrapper_box_shadow);
     flex-direction: column;
@@ -239,6 +240,12 @@ nav {
 
     & img {
         width: 70%;
+    }
+
+    & p {
+        font-family: var(--google_sans_regular);
+        font-size: 0.8em;
+        color: var(--clr_black);
     }
 }
 
