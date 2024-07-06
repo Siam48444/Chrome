@@ -164,6 +164,7 @@ nav {
         font-family: var(--google_sans_medium);
         font-size: 1.5em;
         color: var(--clr_gray);
+        font-weight: 500;
     }
 }
 
