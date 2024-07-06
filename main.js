@@ -12,7 +12,7 @@ function jumplink_appear_animation() {
     function jumplink_appear() {
         mm.add("(min-width: 1000px)", () => {
             gsap.to(".navigation", { y: "-105%", duration: 0.3 });
-            // gsap.to(".fixed_jumplink_container", { opacity: 1, scale: 1, pointerEvents: "all", duration: 0.3 });
+            gsap.to(".fixed_jumplink_container", { opacity: 1, scale: 1, pointerEvents: "all", duration: 0.3 });
         });
     }
     function jumplink_disappear() {
