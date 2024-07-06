@@ -85,16 +85,12 @@
     & img {
         height: 100%;
         border-radius: 0.5em;
-        
+
         &:nth-child(3) {
             display: none;
             box-shadow: -0.3em 0.3em 0.3em var(--clr_gray_light);
         }
     }
-}
-
-.updates_container {
-    padding-block: 3em;
 }
 
 .updates_title h1 {
