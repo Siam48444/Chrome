@@ -85,10 +85,10 @@
     & img {
         height: 100%;
         border-radius: 0.5em;
-        box-shadow: -0.3em 0.3em 0.3em var(--clr_gray_light);
-
+        
         &:nth-child(3) {
             display: none;
+            box-shadow: -0.3em 0.3em 0.3em var(--clr_gray_light);
         }
     }
 }
@@ -99,7 +99,7 @@
 
 .updates_title h1 {
     font-family: var(--google_sans_medium);
-    font-size: 4em;
+    font-size: var(--heading_font_size);
     font-weight: 700;
     color: var(--clr_black);
     text-align: center;

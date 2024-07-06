@@ -59,6 +59,8 @@ html {
     --jumplink_wrapper_padding: 0.5em;
     --jumplink_padding: 0.5em 1em;
     --jumplink_wrapper_box_shadow: 0 0.15em 0.1em var(--clr_gray_light);
+
+    --heading_font_size: 3.6em;
 }
 
 .words {
