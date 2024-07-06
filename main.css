@@ -236,6 +236,10 @@ nav {
     gap: 1em;
     padding: 1.5em;
     border-radius: var(--primary_border_radius);
+
+    & img {
+        width: 70%;
+    }
 }
 
 /* Media Queries */

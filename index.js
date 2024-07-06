@@ -17,7 +17,7 @@ function jumplink_appear_animation() {
         });
     }
 
-    main.getBoundingClientRect().bottom < window.innerHeight / 3 ? jumplink_appear() : jumplink_disappear();
+    main.getBoundingClientRect().bottom < main.clientHeight / 3 ? jumplink_appear() : jumplink_disappear();
 }
 window.addEventListener("scroll", () => jumplink_appear_animation());
 
