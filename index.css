@@ -91,6 +91,18 @@
     }
 }
 
+.updates_container {
+    padding-block: 3em;
+}
+
+.updates_title h1 {
+    font-family: var(--google_sans_bold);
+    font-size: 4em;
+    color: var(--clr_black);
+    text-align: center;
+    line-height: 1.1;
+}
+
 /* Media Queries */
 @media (width < 1000px) {
     .hero_head svg {
