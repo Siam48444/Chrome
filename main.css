@@ -273,7 +273,8 @@ nav {
 /* Media Queries */
 @media (width < 1000px) {
     .nav_link_container,
-    .download_chrome_button {
+    .download_chrome_button,
+    .download_chrome_qr_code_wrapper {
         display: none;
     }
 
