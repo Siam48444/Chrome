@@ -133,7 +133,7 @@
     & h2 {
         font-family: var(--google_sans_medium);
         font-size: var(--heading_special_font_size);
-        font-weight: 600;
+        font-weight: 500;
         color: var(--clr_blue);
         text-align: center;
     }
