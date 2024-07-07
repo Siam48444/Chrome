@@ -18,13 +18,13 @@ loaded_animation();
 
 function update_section_logo_moves() {
     gsap.from(".update_visual svg", {
-        left: 0,
+        x: "-200%",
         duration: 1,
         delay: 0.5,
         rotate: -90,
         opacity: 0,
         ease: "expo.out",
-        scrollTrigger: { trigger: ".update_visual svg" , start: "top 90%"},
+        scrollTrigger: { trigger: ".update_visual svg", start: "top 90%" },
     });
 }
 update_section_logo_moves();
