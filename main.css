@@ -233,8 +233,8 @@ nav {
 }
 
 .fixed_jumplink_active {
-    background-color: var(--clr_gray_light) !important;
-    color: var(--clr_black);
+    background-color: var(--clr_light_blue) !important;
+    color: var(--clr_blue);
 }
 
 .hamburger_button {
