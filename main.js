@@ -35,3 +35,6 @@ function jumplink_changes_on_scroll() {
     }
 }
 window.addEventListener("scroll", () => jumplink_changes_on_scroll());
+
+tl.from(".heading_special .char", { y: "100%", duration: 1, stagger: 0.05, ease: "elastic.out(0.6, 0.3)" });
+tl.from(".heading_special svg", { rotate: -90, opacity: 0, duration: 1, ease: "elastic.out(0.6, 0.3)" }, "<");

@@ -115,30 +115,6 @@
     text-align: center;
 }
 
-.heading_special {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1em;
-    width: fit-content;
-    background-color: var(--clr_light_blue);
-    border-radius: var(--heading_special_border_radius);
-    padding: var(--heading_special_padding);
-    margin: auto;
-
-    & svg {
-        height: var(--heading_special_svg_height);
-    }
-
-    & h2 {
-        font-family: var(--google_sans_medium);
-        font-size: var(--heading_special_font_size);
-        font-weight: 500;
-        color: var(--clr_blue);
-        text-align: center;
-    }
-}
-
 .updates_wrapper {
     padding-block: 5em;
     display: grid;
