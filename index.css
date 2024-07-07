@@ -127,7 +127,7 @@
     margin: auto;
 
     & svg {
-        height: 3em;
+        height: var(--heading_special_svg_height);
     }
 
     & h2 {
@@ -196,7 +196,7 @@
 
 .update_visual {
     border-radius: inherit;
-    background-position: center;
+    background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
     aspect-ratio: 16 / 9;
@@ -231,10 +231,43 @@
     .hero_images_wrapper img:nth-child(3) {
         display: block;
     }
+
+    .updates_wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .update_visual {
+        aspect-ratio: 16 / 6;
+    }
+
+    .update_detail h1 {
+        font-size: 2em;
+    }
+
+    .update_detail:has(p, a) {
+        font-size: 1em;
+    }
 }
 
 @media (width < 600px) {
+    .hero_images_wrapper {
+        height: 20em;
+    }
+
     .hero_head h1 {
         font-size: 3em;
+    }
+
+    .update_detail {
+        padding: 2em;
+    }
+
+    .update_detail:has(p, a) {
+        font-size: 0.9em;
+    }
+
+    .update_visual svg {
+        height: 5em;
+        margin: 2em;
     }
 }
