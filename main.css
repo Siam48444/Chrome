@@ -32,7 +32,7 @@ html {
 :root {
     /* Colors */
     --clr_blue: #1a73e8;
-    --clr_light_blue: #e5eefd;
+    --clrcgra--clr_gray_light_blue: #e5eefd;
     --clr_light_blue_darker: #d5e0f7;
     --clr_white: #fafafa;
     --clr_black: #202124;
@@ -230,6 +230,11 @@ nav {
         color: var(--clr_black);
         background-color: var(--clr_gray_lighter);
     }
+}
+
+.fixed_jumplink_active {
+    background-color: var(--clr_gray_light) !important;
+    color: var(--clr_black);
 }
 
 .hamburger_button {
