@@ -21,3 +21,17 @@ function jumplink_appear_animation() {
 }
 window.addEventListener("scroll", () => jumplink_appear_animation());
 
+function jumplink_changes_on_scroll() {
+    const sections = document.querySelectorAll(".sections");
+    const fixed_jumplink = document.querySelectorAll(".fixed_jumplink");
+
+    for (let i = 0; i < fixed_jumplink.length; i++) {
+        if (sections[i].getBoundingClientRect().top < window.innerHeight / 3) {
+            fixed_jumplink.forEach((link) => {
+                link.classList.remove("fixed_jumplink_active");
+            });
+            fixed_jumplink[i].classList.add("fixed_jumplink_active");
+        }
+    }
+}
+window.addEventListener("scroll", () => jumplink_changes_on_scroll());
