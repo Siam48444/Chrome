@@ -156,8 +156,14 @@
 }
 
 .update {
-    background-color: var(--clr_light_blue);
     border-radius: var(--primary_border_radius);
+
+    &:nth-child(1) {
+        background-color: var(--clr_light_blue);
+    }
+    &:nth-child(2) {
+        background-color: var(--clr_light_orange);
+    }
 }
 
 /* Media Queries */
