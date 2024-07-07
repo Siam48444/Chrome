@@ -26,7 +26,7 @@ function jumplink_changes_on_scroll() {
     const fixed_jumplink = document.querySelectorAll(".fixed_jumplink");
 
     for (let i = 0; i < fixed_jumplink.length; i++) {
-        if (sections[i].getBoundingClientRect().top < window.innerHeight / 3) {
+        if (sections[i].getBoundingClientRect().top < 50) {
             fixed_jumplink.forEach((link) => {
                 link.classList.remove("fixed_jumplink_active");
             });
