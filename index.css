@@ -97,6 +97,16 @@
     padding-block: 3em;
 }
 
+.updates_title > div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em; 
+    width: fit-content;
+    margin: auto;
+}
+
 .updates_title h1 {
     font-family: var(--google_sans_medium);
     font-size: var(--heading_font_size);
